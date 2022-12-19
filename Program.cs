@@ -1,15 +1,16 @@
 ﻿Console.Clear();
 
-Console.WriteLine("введите 2 числа");
+Console.WriteLine("введите 3 числа");
 
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
 
-if (a==b)
-    Console.WriteLine($"{a}={b}");
-if (a>b)
-    Console.WriteLine($"{a} больше {b}");
-if (a<b)
-{
-    Console.WriteLine($"{b} больше {a}");
-}
+int max =a;
+
+
+if (max<b)
+    max=b;
+if(max<c)
+max=c;
+Console.WriteLine($"max={max}");
