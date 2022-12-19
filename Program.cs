@@ -1,10 +1,7 @@
 ﻿Console.Clear();
 
-Console.WriteLine("введите числo");
-
+Console.WriteLine("введите число");
 int a = Convert.ToInt32(Console.ReadLine());
-
-if (a%2==0)
-    Console.WriteLine($"{a} chetnoe");
-else
-    Console.WriteLine($"{a} ne chetnoe");
+    
+for (int i=2; i<=a; i=i+2)
+    Console.Write($"{i}, ");
