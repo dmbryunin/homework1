@@ -1,16 +1,10 @@
 ﻿Console.Clear();
 
-Console.WriteLine("введите 3 числа");
+Console.WriteLine("введите числo");
 
 int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-int c = Convert.ToInt32(Console.ReadLine());
 
-int max =a;
-
-
-if (max<b)
-    max=b;
-if(max<c)
-max=c;
-Console.WriteLine($"max={max}");
+if (a%2==0)
+    Console.WriteLine($"{a} chetnoe");
+else
+    Console.WriteLine($"{a} ne chetnoe");
